@@ -1,0 +1,26 @@
+.header {
+	color: $white;
+	height: 700px;
+	background-image: url('../img/post-image.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+
+    & h1 {
+    font-family: $playfair;
+    font-size: $xx-large;
+    margin-bottom: 20%;
+    font-weight: $font-black;
+    font-style: italic;
+    }
+}
+
+.header__content {
+	max-width: 650px;
+	margin: 0 auto;
+	padding-top: 20%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .le h1 {width: 50%; font-size: 2rem; margin: auto; margin-bottom: 23rem;}
+}

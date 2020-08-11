@@ -1,0 +1,22 @@
+body {
+	font-family: $roboto;
+}
+
+a {
+	color: $ruddypink;
+
+	&:hover {
+	color: $erieblack;
+	text-decoration: none;
+	}
+}
+
+.rounded-corners {
+	border-radius: $rounded;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.y {width: 40%; margin: auto; text-align: center;}
+
+}
